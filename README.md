@@ -3,8 +3,8 @@ Python script to create a hierarchical file index of a directory with `.org` fil
 Each file is a link to the corresponding note.
 
 ## usage
-* `ORG_DIRECTORY` is the root directory that will be recursively traversed
-* `ORGZLY_FILE_INDEX` is the path to the orgzly index file
+* `ORG_DIRECTORY` is the root directory (full path) that will be recursively traversed
+* `ORGZLY_FILE_INDEX` is the full path to the orgzly index file. It is recommended to be a name like "0.org", "0_Index.org" so that it will be the first notebook on the orgzly app
 `$ export ORG_DIRECTORY="/path/to/org/directory" ORGZLY_FILE_INDEX="/path/to/index/file.org" python make_index.py`
 
 ## pitfalls
